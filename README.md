@@ -6,13 +6,22 @@ Templates for SAP BW/BO Project
 ## Structure
 
 ~~~
-Root
+Root Folder
+|   20170721_2259
+|   FolderStrucutre.txt
+|   get_folder_structure.bat
+|   
 +---!--Archives--!
 |   \---[By Person Name]
 +---!--Principle--!
 +---!--Template--!
 +---!_SourceCode
+|       !--项目完成后，除本文件外，均移入 Source Code - BW - Project Code 文件夹
+|       
 +---!__Markdown
+|       !---  README before using THIS FOLDER template.md
+|       !--XXX memo.md
+|       
 +---!~Manday
 |   +---!--Templates
 |   +---20YY
@@ -20,9 +29,21 @@ Root
 +---00..Reference(OverAll)
 +---00..Version Compare
 |   +---CMOD_[System]
+|   |       [System]_DEV.abap
+|   |       [System]_DEV_YYYYMMDD_n.[Comments].abap
+|   |       [System]_PRD.abap
+|   |       [System]_PRD_YYYYMMDD_n.[Comments].abap
+|   |       [System]_QAS.abap
+|   |       [System]_QAS_YYYYMMDD_n.[Comments].abap
+|   |       
 |   +---Process Chain
 |   \---Transformation
+|       |   !-- 使用 Notepad++ 时，注意设置文件字符集.txt
+|       |   
 |       \---【Transformation Description】
+|               [SID].abap
+|               [SID]_YYYYMMDD_n.[Comments].abap
+|               
 +---01.[Project Name]
 |   +---00.Project Manage
 |   |   +---!--MaxAttention
@@ -37,15 +58,26 @@ Root
 |   |   +---03.Analysis_TO-BE
 |   |   \---04.Solution
 |   +---02.DEV
+|   |   |   !--移入 OverAll @ 20161017，视项目规模.txt
+|   |   |   
 |   |   +---BO
 |   |   |   \---WebI
 |   |   |       \---[Template - No] - [WebI Short Description]
+|   |   |           |   !--WebI 文件放在这里，公式放在上面文件夹里.txt
+|   |   |           |   
 |   |   |           \---WebI Formula
+|   |   |                   !-- 文件内容模板见分类文件夹(02.DEV).txt
+|   |   |                   
 |   |   +---DataSource - Flat File
 |   |   \---Query - Filter
+|   |           BEx Query - Filter - Range can not be import.txt
+|   |           BEx Query - Filter - Single Value.txt
+|   |           
 |   +---03.SIT
 |   +---04.UAT
 |   +---05.MTP
+|   |   |   !-- 上线时的传输相关内容，上线后的传输见 PPS 对应错误文件夹@20150111 --!
+|   |   |   
 |   |   \---TR List
 |   +---06.PPS
 |   |   +---!--00.Daily issue Log
@@ -59,13 +91,25 @@ Root
 |   +---08.User Training
 |   \---21.For Others
 +---70.DEV(OverAll)
+|   |   !--XXX BW & BO --!.md
+|   |   README.md
+|   |   
 |   +---!--Archives
 |   +---BO
 |   |   \---WebI
 |   |       \---[Template - No] - [Short Description]
+|   |           |   !--WebI 文件放在这里，公式放在上面文件夹里.txt
+|   |           |   
 |   |           \---WebI Formula
+|   |                   !-- 文件内容模板见分类文件夹(02.DEV).txt
+|   |                   
 |   \---BW
 +---71.MTP(TR Status)
+|       !--XXX TR Status - BO.md
+|       !--XXX TR Status - BW.md
+|       !--XXX TR Status - DO NOT Transport.md
+|       XXX_TR_Status_YYYYMM(传输后归档至此).md
+|       
 +---71.Optimization
 +---99.Config
 \---99.ID
