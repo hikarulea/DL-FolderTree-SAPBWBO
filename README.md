@@ -1,15 +1,15 @@
 # DL-FolderTree-SAPBWBO
 Templates for SAP BW/BO Project
 
+## How to use
 
+Use Script_2.CopyFilesIntoCorrespondingFolders.bat to Move all latest markdown files into the right folders.
 
 ## Structure
 
 ~~~
 Root Folder
-|   20170721_2259
-|   FolderStrucutre.txt
-|   get_folder_structure.bat
+|   !-- version 20170721_2259
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -108,7 +108,7 @@ Root Folder
 |       !--XXX TR Status - BO.md
 |       !--XXX TR Status - BW.md
 |       !--XXX TR Status - DO NOT Transport.md
-|       XXX_TR_Status_YYYYMM(传输后归档至此).md
+|       XXX_TR_Status_YYYYMM(Archives).md
 |       
 +---71.Optimization
 +---99.Config
