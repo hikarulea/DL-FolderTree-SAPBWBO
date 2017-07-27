@@ -9,7 +9,7 @@ Use Script_2.CopyFilesIntoCorrespondingFolders.bat to Move all latest markdown f
 
 ~~~
 Root Folder
-|   !-- version 20170721_2259
+|   !-- version 20170727_1358
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -95,6 +95,9 @@ Root Folder
 |   |   README.md
 |   |   
 |   +---!--Archives
+|   +---ABAP
+|   +---Basis
+|   |   \---Role Zxxxx
 |   +---BO
 |   |   \---WebI
 |   |       \---[Template - No] - [Short Description]
@@ -103,7 +106,8 @@ Root Folder
 |   |           \---WebI Formula
 |   |                   !-- 文件内容模板见分类文件夹(02.DEV).txt
 |   |                   
-|   \---BW
+|   +---BW
+|   \---HANA
 +---71.MTP(TR Status)
 |       !--XXX TR Status - BO.md
 |       !--XXX TR Status - BW.md
