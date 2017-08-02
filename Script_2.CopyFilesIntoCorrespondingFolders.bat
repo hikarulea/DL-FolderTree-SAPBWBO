@@ -10,6 +10,12 @@ set file_name="!--XXX Project.md"
 set target_detail_dir=%target_dir%\!__Markdown
 call:myCopy
 
+:: Project
+:: ...\FolderTree\!__Markdown\!--XXX Project_Todo-List(Archived).md
+set file_name="!--XXX Project_Todo-List(Archived).md"
+set target_detail_dir=%target_dir%\!__Markdown
+call:myCopy
+
 :: Dev
 ::...\FolderTree\70.DEV(OverAll)\README.md
 set file_name=README.md

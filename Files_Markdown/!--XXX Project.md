@@ -13,12 +13,13 @@
 ## Todo-List
 
 ### Next Actions
-* ​
+* ​Task Description
 
 ### Someday
-* ​
-* 
+* ​Task Description
 
+### Done[^2]
+* Finished Date, Task Description, Comments
 
 ## Memos
 * AAA:
@@ -42,11 +43,14 @@
 ```
 RSSTATMANPART
 ```
+
 ### BW Process Chain
+* Function Module
 ```
-BW FM
 RSPC_CHAIN_ACTIVATE_REMOTE
+RSPC_API_CHAIN_START
 ```
+
 ### BO Schedule Related
 BO 发送邮件时使用的 From 地址
 ```
@@ -72,3 +76,4 @@ UAT - Test User
 | xxx  | E     |       |        |
 
 [^1]: Add all shortcuts of these MD files into the folders which used in AHK.
+[^2]: Archive below tasks by weekly.
