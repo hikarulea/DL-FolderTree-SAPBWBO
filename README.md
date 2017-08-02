@@ -9,7 +9,7 @@ Use Script_2.CopyFilesIntoCorrespondingFolders.bat to Move all latest markdown f
 
 ~~~
 Root Folder
-|   !-- version 20170727_1358
+|   !-- version 20170802_1545
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -20,7 +20,7 @@ Root Folder
 |       
 +---!__Markdown
 |       !---  README before using THIS FOLDER template.md
-|       !--XXX memo.md
+|       !--XXX Project.md
 |       
 +---!~Manday
 |   +---!--Templates
@@ -117,5 +117,6 @@ Root Folder
 +---71.Optimization
 +---99.Config
 \---99.ID
+
 ~~~
 

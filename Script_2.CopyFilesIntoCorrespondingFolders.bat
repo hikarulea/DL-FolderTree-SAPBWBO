@@ -5,8 +5,8 @@ set source_dir=%current_dir%\Files_Markdown
 set target_dir=%current_dir%\FolderTree
 
 :: Project
-:: ...\FolderTree\!__Markdown\!--XXX memo.md
-set file_name="!--XXX memo.md"
+:: ...\FolderTree\!__Markdown\!--XXX Project.md
+set file_name="!--XXX Project.md"
 set target_detail_dir=%target_dir%\!__Markdown
 call:myCopy
 

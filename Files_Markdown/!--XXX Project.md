@@ -1,49 +1,53 @@
-# XXX项目记录
+# XXX Project
+
 
 ## Daily Routine
 
-### Review All Markdown Files
+* Review All Markdown Files[^1]
+* Update Todo-List
 
-Add all shortcuts of these MD files into the folders which used in AHK.
+## Most Important Things in Current Week
 
-### Update Todo-List
+* ​
 
-## 本周任务
+## Todo-List
 
-## 待办
-* 
+### Next Actions
+* ​
+
+### Someday
+* ​
 
 ## 待检查
-* 
+* ​
 
 ## 待传输
-* 
+* ​
 
 ## 待解决问题
 
 
 ## 待观察(潜在的)问题
-* 
+* ​
 
 ## 备忘录
-* 
+* ​
 
 ## 需方案
 * 
 
 
-## 备注
+## Memos
 * AAA:
   * aaa
   * bbb
 * BBB
 * CCC
-  
 
-##### XX 相关
-* 
+### XX Related
+* ​
 
-## 常用信息
+## Useful Information
 
 ### TCode
 | TCode | Comments |
@@ -76,6 +80,12 @@ UAT - Test User
 ```
 
 ```
-## 常用 InfoObject 描述
+
+## Important InfoObjects
 
 ### XXX - YYY
+| XXX  | Langu | Short | Medium |
+| ---- | ----- | ----- | ------ |
+| xxx  | E     |       |        |
+
+[^1]: Add all shortcuts of these MD files into the folders which used in AHK.
