@@ -6,27 +6,37 @@
 * Review All Markdown Files[^1]
 * Update Todo-List
 
-## Most Important Things in Current Week
+## Weekly Routine
+
+
+## Monthly Routine
+
+
+## Most Important Things in This Week
 
 * ​
 
 ## Todo-List
 
 ### Next Actions
-* ​Task Description
+- [ ] ​Task Description
 
 ### Someday
-* ​Task Description
+- [ ] Task Description
 
 ### Done[^2]
-* Finished Date, Task Description, Comments
+- [ ] Finished Date, Task Description, Comments
 
 ## Memos
 * AAA:
   * aaa
+  ~~~ MD_Comments
+  bla...bla..
+  ~~~
   * bbb
 * BBB
 * CCC
+
 
 ### XX Related
 * ​
@@ -44,6 +54,12 @@
 RSSTATMANPART
 ```
 
+### BW Modeling
+
+* XX Module
+  * XX Model, Description, Short Comments
+
+
 ### BW Process Chain
 * Function Module
 ```
@@ -59,12 +75,12 @@ BO 发送邮件时使用的 From 地址
 
 ### Account Information
 SIT - Test User
-```
+``` MD_Account_Info
 
 ```
 
 UAT - Test User
-```
+``` MD_Account_Info
 
 ```
 
