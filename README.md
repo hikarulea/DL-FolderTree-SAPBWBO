@@ -3,13 +3,13 @@ Templates for SAP BW/BO Project
 
 ## How to use
 
-Use Script_2.CopyFilesIntoCorrespondingFolders.bat to Move all latest markdown files into the right folders.
+Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdown files into their corresponding folders.
 
 ## Structure
 
 ~~~
 Root Folder
-|   !-- version 20170802_1611
+|   !-- version 20170803_0850
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -29,6 +29,14 @@ Root Folder
 |   \---20YYMM
 +---00..Reference(OverAll)
 +---00..Version Compare
+|   +---BW Process Chain
+|   +---BW Transformation
+|   |   |   !-- 使用 Notepad++ 时，注意设置文件字符集.txt
+|   |   |   
+|   |   \---【Transformation Description】
+|   |           [SID].abap
+|   |           [SID]_YYYYMMDD_n.[Comments].abap
+|   |           
 |   +---CMOD_[System]
 |   |       [System]_DEV.abap
 |   |       [System]_DEV_YYYYMMDD_n.[Comments].abap
@@ -37,14 +45,7 @@ Root Folder
 |   |       [System]_QAS.abap
 |   |       [System]_QAS_YYYYMMDD_n.[Comments].abap
 |   |       
-|   +---Process Chain
-|   \---Transformation
-|       |   !-- 使用 Notepad++ 时，注意设置文件字符集.txt
-|       |   
-|       \---【Transformation Description】
-|               [SID].abap
-|               [SID]_YYYYMMDD_n.[Comments].abap
-|               
+|   \---Role_[System]
 +---01.[Project Name]
 |   +---00.Project Manage
 |   |   +---!--MaxAttention
