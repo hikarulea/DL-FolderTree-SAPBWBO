@@ -8,6 +8,8 @@
 
 ## Weekly Routine
 
+* Backup this markdown file as the last week version
+  This task will be removed when my private git server is ready.
 
 ## Monthly Routine
 

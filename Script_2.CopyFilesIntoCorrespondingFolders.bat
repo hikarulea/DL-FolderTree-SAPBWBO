@@ -25,6 +25,10 @@ call:myCopy
 set file_name="!--XXX BW & BO --!.md"
 set target_detail_dir=%target_dir%\70.DEV(OverAll)
 call:myCopy
+::...\FolderTree\70.DEV(OverAll)\ABAP\[Class Name]_YYYYMMDD.md
+set file_name="[Class Name]_YYYYMMDD.md"
+set target_detail_dir=%target_dir%\70.DEV(OverAll)\ABAP
+call:myCopy
 
 :: Transport
 :: ...\FolderTree\71.MTP(TR Status)\!--XXX TR Status - BO.md
