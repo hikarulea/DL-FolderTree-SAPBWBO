@@ -9,28 +9,20 @@ Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdo
 
 ~~~
 Root Folder
-|   !-- version 20170808_1322
+|   !-- version 20170809_1003
 |   
 +---!--Archives--!
 |   \---[By Person Name]
 +---!--Principle--!
 +---!--Template--!
 +---!_SourceCode
-|       !--项目完成后，除本文件外，均移入 Source Code - BW - Project Code 文件夹
-|       
-+---!__Markdown
-|       !---  README before using THIS FOLDER template.md
-|       !--XXX Project.md
-|       !--XXX Project_Todo-List(Archived).md
-|       
-+---!~Manday
-|   +---!--Templates
-|   +---20YY
-|   \---20YYMM
-+---00..Reference(OverAll)
-+---00..Version Compare
-|   +---BW Process Chain
-|   +---BW Transformation
+|   |   !--项目完成后，除本文件外，均移入 Source Code - BW - Project Code 文件夹
+|   |   
+|   +---ABAP_Class
+|   |       [Class Name]_YYYYMMDD.md
+|   |       
+|   +---ABAP_Program
+|   +---BW_Transformation
 |   |   |   !-- 使用 Notepad++ 时，注意设置文件字符集.txt
 |   |   |   
 |   |   \---【Transformation Description】
@@ -45,6 +37,19 @@ Root Folder
 |   |       [System]_QAS.abap
 |   |       [System]_QAS_YYYYMMDD_n.[Comments].abap
 |   |       
+|   \---ZZZ_from Other Developer
++---!__Markdown
+|       !---  README before using THIS FOLDER template.md
+|       !--XXX Project.md
+|       !--XXX Project_Todo-List(Archived).md
+|       
++---!~Manday
+|   +---!--Templates
+|   +---20YY
+|   \---20YYMM
++---00..Reference(OverAll)
++---00..Version Compare
+|   +---BW Process Chain
 |   \---Role_[System]
 +---01.[Project Name]
 |   +---00.Project Manage
@@ -98,8 +103,6 @@ Root Folder
 |   |   
 |   +---!--Archives
 |   +---ABAP
-|   |       [Class Name]_YYYYMMDD.md
-|   |       
 |   +---Basis
 |   |   \---Role Zxxxx
 |   +---BO
