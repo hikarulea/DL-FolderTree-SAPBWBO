@@ -4,15 +4,17 @@
 
 This document[^Template Version] was modified by <Author> and the last modified date was 20YYMMDD.
 
+Notes[^1]
+
 ## OverView
 
 
 ## Properties
 Instantiation: Public? Private? Protected? Abstract?
-- [X] Final
+- [x] Final
 - [ ] Released Indicator
-- [X] Fixed point arithmetic
-- [X] Unicode checks active
+- [x] Fixed point arithmetic
+- [x] Unicode checks active
 - [ ] Share Memory-Enabled
 
 Message Class:
@@ -58,4 +60,5 @@ Message Class:
 * 20YYMMDD: New
 
 
-[^Template Version]: v1.00
+[^Template Version]: v1.01
+[^1]: Markdown 源码中部分会在下划线 _ 前带有斜杠 \ 为的是避免被识别为后续文字斜体
