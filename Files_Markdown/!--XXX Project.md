@@ -93,5 +93,6 @@ UAT - Test User
 | ---- | ----- | ----- | ------ |
 | xxx  | E     |       |        |
 
+## Footnotes
 [^1]: Add all shortcuts of these MD files into the folders which used in AHK.
 [^2]: Archive below tasks by weekly.
