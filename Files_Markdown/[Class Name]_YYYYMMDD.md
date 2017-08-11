@@ -54,11 +54,11 @@ Message Class:
 | ------------ | -------- |
 |              |          |
 
+## Footnotes
+
+[^Template Version]: v1.02
+[^1]: Markdown 源码中部分会在下划线 _ 前带有斜杠 \ 为的是避免被识别为后续文字斜体
 
 ## Changelog
 
 * 20YYMMDD: New
-
-
-[^Template Version]: v1.01
-[^1]: Markdown 源码中部分会在下划线 _ 前带有斜杠 \ 为的是避免被识别为后续文字斜体
