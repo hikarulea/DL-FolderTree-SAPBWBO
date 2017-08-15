@@ -32,9 +32,9 @@
 ## Memos
 * AAA:
   * aaa
-  ~~~ MD_Comments
+  ``` MD_Comments
   bla...bla..
-  ~~~
+  ```
   * bbb
 * BBB
 * CCC
