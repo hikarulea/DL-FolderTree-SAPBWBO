@@ -9,7 +9,7 @@ Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdo
 
 ~~~
 Root Folder
-|   !-- version 20170809_1003
+|   !-- version 20170816_1105
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -22,6 +22,8 @@ Root Folder
 |   |       [Class Name]_YYYYMMDD.md
 |   |       
 |   +---ABAP_Program
+|   |       [Program Name]_YYYYMMDD.md
+|   |       
 |   +---BW_Transformation
 |   |   |   !-- 使用 Notepad++ 时，注意设置文件字符集.txt
 |   |   |   

@@ -31,6 +31,11 @@ set file_name="[Class Name]_YYYYMMDD.md"
 set target_detail_dir=%target_dir%\!_SourceCode\ABAP_Class
 call:myCopy
 
+::...\FolderTree\!_SourceCode\ABAP_Program\[Program Name]_YYYYMMDD.md
+set file_name="[Program Name]_YYYYMMDD.md"
+set target_detail_dir=%target_dir%\!_SourceCode\ABAP_Program
+call:myCopy
+
 :: Transport
 :: ...\FolderTree\71.MTP(TR Status)\!--XXX TR Status - BO.md
 set file_name="!--XXX TR Status - BO.md"
