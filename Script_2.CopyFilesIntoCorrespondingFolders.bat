@@ -71,6 +71,7 @@ echo %source%
 set target="%target_detail_dir%"\%file_name%
 echo %target%
 copy /y %source% %target%
+goto:eof
 
 :myCopy2
 set source="%source_dir%"\%file_name_src%
@@ -78,3 +79,4 @@ echo %source%
 set target="%target_detail_dir%"\%file_name_tgt%
 echo %target%
 copy /y %source% %target%
+goto:eof
