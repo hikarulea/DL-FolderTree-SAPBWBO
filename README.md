@@ -9,7 +9,7 @@ Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdo
 
 ~~~
 Root Folder
-|   !-- version 20170816_1105
+|   !-- version 20171103_1350
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -24,6 +24,7 @@ Root Folder
 |   +---ABAP_Program
 |   |       [Program Name]_YYYYMMDD.md
 |   |       
+|   +---BW_Process Chain
 |   +---BW_Transformation
 |   |   |   !-- 使用 Notepad++ 时，注意设置文件字符集.txt
 |   |   |   
@@ -39,6 +40,7 @@ Root Folder
 |   |       [System]_QAS.abap
 |   |       [System]_QAS_YYYYMMDD_n.[Comments].abap
 |   |       
+|   +---Role_[System]
 |   \---ZZZ_from Other Developer
 +---!__Markdown
 |       !---  README before using THIS FOLDER template.md
@@ -50,10 +52,11 @@ Root Folder
 |   +---20YY
 |   \---20YYMM
 +---00..Reference(OverAll)
-+---00..Version Compare
-|   +---BW Process Chain
-|   \---Role_[System]
-+---01.[Project Name]
++---00.AMS Support
+|   |   README.md
+|   |   
+|   \---YYYYMMDD_[n.]SupportDescription
++---01.[Report or Project Name]_Template
 |   +---00.Project Manage
 |   |   +---!--MaxAttention
 |   |   +---00.Project plan

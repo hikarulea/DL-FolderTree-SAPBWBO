@@ -16,11 +16,19 @@ set file_name="!--XXX Project_Todo-List(Archived).md"
 set target_detail_dir=%target_dir%\!__Markdown
 call:myCopy
 
+:: AMS
+::...\FolderTree\00.AMS Support\README.md
+set file_name_src=AMS_README.md
+set file_name_tgt=README.md
+set target_detail_dir=%target_dir%\00.AMS Support
+call:myCopy2
+
 :: Dev
 ::...\FolderTree\70.DEV(OverAll)\README.md
-set file_name=README.md
+set file_name_src=DEV_OverAll_README.md
+set file_name_tgt=README.md
 set target_detail_dir=%target_dir%\70.DEV(OverAll)
-call:myCopy
+call:myCopy2
 ::...\FolderTree\70.DEV(OverAll)\!--XXX BW & BO --!.md
 set file_name="!--XXX BW & BO --!.md"
 set target_detail_dir=%target_dir%\70.DEV(OverAll)
@@ -61,5 +69,12 @@ goto:eof
 set source="%source_dir%"\%file_name%
 echo %source%
 set target="%target_detail_dir%"\%file_name%
+echo %target%
+copy /y %source% %target%
+
+:myCopy2
+set source="%source_dir%"\%file_name_src%
+echo %source%
+set target="%target_detail_dir%"\%file_name_tgt%
 echo %target%
 copy /y %source% %target%
