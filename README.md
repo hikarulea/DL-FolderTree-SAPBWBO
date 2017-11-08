@@ -9,7 +9,7 @@ Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdo
 
 ~~~
 Root Folder
-|   !-- version 20171103_1350
+|   !-- version 20171108_1355
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -120,6 +120,7 @@ Root Folder
 |   |                   
 |   +---BW
 |   \---HANA
++---70.lc_sel
 +---71.MTP(TR Status)
 |       !--XXX TR Status - BO.md
 |       !--XXX TR Status - BW.md
