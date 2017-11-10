@@ -9,7 +9,7 @@ Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdo
 
 ~~~
 Root Folder
-|   !-- version 20171108_1355
+|   !-- version 20171110_1126
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -24,6 +24,16 @@ Root Folder
 |   +---ABAP_Program
 |   |       [Program Name]_YYYYMMDD.md
 |   |       
+|   +---BW_DTP_Filter Routine
+|   |   \---【DTP & Field Description】_DTP Tech Name
+|   |           [SID].abap
+|   |           [SID]_YYYYMMDD_n.[Comments].abap
+|   |           
+|   +---BW_InfoPackage_Filter Routine
+|   |   \---【InfoPackage & Field Description】_InfoPackage Tech Name
+|   |           [SID].abap
+|   |           [SID]_YYYYMMDD_n.[Comments].abap
+|   |           
 |   +---BW_Process Chain
 |   +---BW_Transformation
 |   |   |   !-- 使用 Notepad++ 时，注意设置文件字符集.txt
@@ -53,10 +63,12 @@ Root Folder
 |   \---20YYMM
 +---00..Reference(OverAll)
 +---00.AMS Support
-|   |   README.md
+|   |   README_AMS Support.md
 |   |   
 |   \---YYYYMMDD_[n.]SupportDescription
 +---01.[Report or Project Name]_Template
+|   |   README_[Report or Project Name].md
+|   |   
 |   +---00.Project Manage
 |   |   +---!--MaxAttention
 |   |   +---00.Project plan
