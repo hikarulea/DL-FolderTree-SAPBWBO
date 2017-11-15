@@ -9,7 +9,7 @@ Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdo
 
 ~~~
 Root Folder
-|   !-- version 20171110_1126
+|   !-- version 20171115_1320
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -23,6 +23,9 @@ Root Folder
 |   |       
 |   +---ABAP_Program
 |   |       [Program Name]_YYYYMMDD.md
+|   |       
+|   +---BAdI_Class
+|   |       [Class Name]_YYYYMMDD.md
 |   |       
 |   +---BW_DTP_Filter Routine
 |   |   \---【DTP & Field Description】_DTP Tech Name
