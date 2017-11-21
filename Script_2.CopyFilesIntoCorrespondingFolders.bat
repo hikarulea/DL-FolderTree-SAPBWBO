@@ -9,8 +9,6 @@ set target_dir=%current_dir%\FolderTree
 set file_name=!--XXX Project.md
 set target_detail_dir=%target_dir%\!__Markdown
 call:myCopy
-
-:: Project
 :: ...\FolderTree\!__Markdown\!--XXX Project_Todo-List(Archived).md
 set file_name=!--XXX Project_Todo-List(Archived).md
 set target_detail_dir=%target_dir%\!__Markdown
@@ -40,17 +38,20 @@ call:myCopy2
 set file_name=!--XXX BW & BO --!.md
 set target_detail_dir=%target_dir%\70.DEV(OverAll)
 call:myCopy
+::...\FolderTree\70.DEV(OverAll)\BO\WebI\[Template - No] - [Short Description]\WebI Formula\!--XXX BW & BO --!.md
+set file_name=[WebI Name]_Formula_YYYYMMDD.widf
+set target_detail_dir=%target_dir%\70.DEV(OverAll)\BO\WebI\[Template - No] - [Short Description]\WebI Formula
+call:myCopy
 
+:: SourceCode
 ::...\FolderTree\!_SourceCode\ABAP_Class\[Class Name]_YYYYMMDD.md
 set file_name=[Class Name]_YYYYMMDD.md
 set target_detail_dir=%target_dir%\!_SourceCode\ABAP_Class
 call:myCopy
-
 ::...\FolderTree\!_SourceCode\ABAP_Program\[Program Name]_YYYYMMDD.md
 set file_name=[Program Name]_YYYYMMDD.md
 set target_detail_dir=%target_dir%\!_SourceCode\ABAP_Program
 call:myCopy
-
 ::...\FolderTree\!_SourceCode\BAdI_Class\[Class Name]_YYYYMMDD.md
 set file_name=[Class Name]_YYYYMMDD.md
 set target_detail_dir=%target_dir%\!_SourceCode\BAdI_Class

@@ -9,7 +9,7 @@ Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdo
 
 ~~~
 Root Folder
-|   !-- version 20171121_1056
+|   !-- version 20171121_1259
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -140,6 +140,7 @@ Root Folder
 |   |           |   
 |   |           \---WebI Formula
 |   |                   !-- 文件内容模板见分类文件夹(02.DEV).txt
+|   |                   [WebI Name]_Formula_YYYYMMDD.widf
 |   |                   
 |   +---BW
 |   \---HANA
