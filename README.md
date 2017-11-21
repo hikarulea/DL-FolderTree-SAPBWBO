@@ -9,7 +9,7 @@ Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdo
 
 ~~~
 Root Folder
-|   !-- version 20171115_1320
+|   !-- version 20171121_1056
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -19,14 +19,22 @@ Root Folder
 |   |   !--项目完成后，除本文件外，均移入 Source Code - BW - Project Code 文件夹
 |   |   
 |   +---ABAP_Class
-|   |       [Class Name]_YYYYMMDD.md
-|   |       
+|   |   |   [Class Name]_YYYYMMDD.md
+|   |   |   
+|   |   \---【System】【Class Description】
+|   |       \---【Download Date】
 |   +---ABAP_Program
-|   |       [Program Name]_YYYYMMDD.md
-|   |       
+|   |   |   [Program Name]_YYYYMMDD.md
+|   |   |   
+|   |   \---【System】【Program Description】
+|   |           [SID].abap
+|   |           [SID]_YYYYMMDD_n.[Comments].abap
+|   |           
 |   +---BAdI_Class
-|   |       [Class Name]_YYYYMMDD.md
-|   |       
+|   |   |   [Class Name]_YYYYMMDD.md
+|   |   |   
+|   |   \---【System】【Class Description】
+|   |       \---【Download Date】
 |   +---BW_DTP_Filter Routine
 |   |   \---【DTP & Field Description】_DTP Tech Name
 |   |           [SID].abap
