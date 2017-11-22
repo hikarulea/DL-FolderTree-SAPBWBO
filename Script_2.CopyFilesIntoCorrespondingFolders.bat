@@ -44,9 +44,9 @@ set target_detail_dir=%target_dir%\70.DEV(OverAll)\BO\WebI\[Template - No] - [Sh
 call:myCopy
 
 :: SourceCode
-::...\FolderTree\!_SourceCode\ABAP_Class\[Class Name]_YYYYMMDD.md
+::...\FolderTree\!_SourceCode\ABAP_Class\【System】【Class Description】\[Class Name]_YYYYMMDD.md
 set file_name=[Class Name]_YYYYMMDD.md
-set target_detail_dir=%target_dir%\!_SourceCode\ABAP_Class
+set target_detail_dir=%target_dir%\!_SourceCode\ABAP_Class\【System】【Class Description】
 call:myCopy
 ::...\FolderTree\!_SourceCode\ABAP_Program\[Program Name]_YYYYMMDD.md
 set file_name=[Program Name]_YYYYMMDD.md
