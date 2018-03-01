@@ -52,6 +52,10 @@ call:myCopy
 set file_name=[Program Name]_YYYYMMDD.md
 set target_detail_dir=%target_dir%\!_SourceCode\ABAP_Program
 call:myCopy
+::...\FolderTree\!_SourceCode\ABAP_FM\[Function Module Name]_YYYYMMDD.md
+set file_name=[Function Module Name]_YYYYMMDD.md
+set target_detail_dir=%target_dir%\!_SourceCode\ABAP_FM
+call:myCopy
 ::...\FolderTree\!_SourceCode\BAdI_Class\[Class Name]_YYYYMMDD.md
 set file_name=[Class Name]_YYYYMMDD.md
 set target_detail_dir=%target_dir%\!_SourceCode\BAdI_Class
