@@ -9,7 +9,7 @@ Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdo
 
 ~~~
 Root Folder
-|   !-- version 20171205_1250
+|   !-- version 20180518_1420
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -23,12 +23,29 @@ Root Folder
 |   |       |   [Class Name]_YYYYMMDD.md
 |   |       |   
 |   |       \---【Download Date】
+|   +---ABAP_FM
+|   |   |   [Function Module Name]_YYYYMMDD.md
+|   |   |   
+|   |   \---【System】【Function Module Description】
+|   |           [SID].abap
+|   |           [SID]_YYYYMMDD_n.[Comments].abap
+|   |           
 |   +---ABAP_Program
 |   |   |   [Program Name]_YYYYMMDD.md
 |   |   |   
-|   |   \---【System】_【Program Description】
+|   |   \---【System】 【Program Name】
 |   |           [SID].abap
 |   |           [SID]_YYYYMMDD_n.[Comments].abap
+|   |           
+|   +---ABAP_Structure
+|   |   \---【System】【Structure Name】
+|   |           [SID].xlsx
+|   |           [SID]_YYYYMMDD_n.[Comments].xlsx
+|   |           
+|   +---ABAP_Table
+|   |   \---【System】【Table Name】
+|   |           [SID].xlsx
+|   |           [SID]_YYYYMMDD_n.[Comments].xlsx
 |   |           
 |   +---BAdI_Class
 |   |   |   [Class Name]_YYYYMMDD.md
@@ -43,7 +60,7 @@ Root Folder
 |   +---BW_DataSource
 |   |   |   [DataSource Name]_YYYYMMDD.md
 |   |   |   
-|   |   \---【DataSource】_【Function Module】
+|   |   \---【DataSource】-【Function Module】
 |   |           [SID].abap
 |   |           [SID]_YYYYMMDD_n.[Comments].abap
 |   |           

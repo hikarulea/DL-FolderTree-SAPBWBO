@@ -1,7 +1,7 @@
-卷 Soft 的文件夹 PATH 列表
-卷序列号为 5CDA-C58E
+卷 Data 的文件夹 PATH 列表
+卷序列号为 00000028 A4DE:D47F
 D:\DROPBOX\GITHUB\DL-FOLDERTREE-SAPBWBO\FOLDERTREE
-|   !-- version 20180301_1533
+|   !-- version 20180518_1420
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -25,9 +25,19 @@ D:\DROPBOX\GITHUB\DL-FOLDERTREE-SAPBWBO\FOLDERTREE
 |   +---ABAP_Program
 |   |   |   [Program Name]_YYYYMMDD.md
 |   |   |   
-|   |   \---【System】_【Program Description】
+|   |   \---【System】 【Program Name】
 |   |           [SID].abap
 |   |           [SID]_YYYYMMDD_n.[Comments].abap
+|   |           
+|   +---ABAP_Structure
+|   |   \---【System】【Structure Name】
+|   |           [SID].xlsx
+|   |           [SID]_YYYYMMDD_n.[Comments].xlsx
+|   |           
+|   +---ABAP_Table
+|   |   \---【System】【Table Name】
+|   |           [SID].xlsx
+|   |           [SID]_YYYYMMDD_n.[Comments].xlsx
 |   |           
 |   +---BAdI_Class
 |   |   |   [Class Name]_YYYYMMDD.md
