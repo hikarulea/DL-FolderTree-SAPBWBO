@@ -9,7 +9,7 @@ Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdo
 
 ~~~
 Root Folder
-|   !-- version 20180518_1420
+|   !-- version 20180518_1437
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -46,6 +46,11 @@ Root Folder
 |   |   \---【System】【Table Name】
 |   |           [SID].xlsx
 |   |           [SID]_YYYYMMDD_n.[Comments].xlsx
+|   |           
+|   +---ABAP_Table Type
+|   |   \---【System】【Table Name】
+|   |           [SID].md
+|   |           [SID]_YYYYMMDD_n.[Comments].md
 |   |           
 |   +---BAdI_Class
 |   |   |   [Class Name]_YYYYMMDD.md
