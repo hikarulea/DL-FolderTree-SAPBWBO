@@ -9,7 +9,7 @@ Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdo
 
 ~~~
 Root Folder
-|   !-- version 20180518_1437
+|   !-- version 20180808_1626
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -19,71 +19,71 @@ Root Folder
 |   |   !--项目完成后，除本文件外，均移入 Source Code - BW - Project Code 文件夹
 |   |   
 |   +---ABAP_Class
-|   |   \---【System】_【Class Description】
+|   |   \---[System]_[Class Description]
 |   |       |   [Class Name]_YYYYMMDD.md
 |   |       |   
-|   |       \---【Download Date】
+|   |       \---[Download Date]
 |   +---ABAP_FM
-|   |   |   [Function Module Name]_YYYYMMDD.md
-|   |   |   
-|   |   \---【System】【Function Module Description】
+|   |   \---[System]_[Function Module Description]
+|   |           [Function Module Name]_YYYYMMDD.md
 |   |           [SID].abap
 |   |           [SID]_YYYYMMDD_n.[Comments].abap
 |   |           
 |   +---ABAP_Program
-|   |   |   [Program Name]_YYYYMMDD.md
-|   |   |   
-|   |   \---【System】 【Program Name】
+|   |   \---[System]_[Program Name]
+|   |           [Program Name]_YYYYMMDD.md
 |   |           [SID].abap
 |   |           [SID]_YYYYMMDD_n.[Comments].abap
 |   |           
 |   +---ABAP_Structure
-|   |   \---【System】【Structure Name】
+|   |   \---[System]_[Structure Name]
 |   |           [SID].xlsx
 |   |           [SID]_YYYYMMDD_n.[Comments].xlsx
 |   |           
 |   +---ABAP_Table
-|   |   \---【System】【Table Name】
+|   |   \---[System]_[Table Name]
 |   |           [SID].xlsx
 |   |           [SID]_YYYYMMDD_n.[Comments].xlsx
 |   |           
 |   +---ABAP_Table Type
-|   |   \---【System】【Table Name】
+|   |   \---[System]_[Table Name]
 |   |           [SID].md
 |   |           [SID]_YYYYMMDD_n.[Comments].md
 |   |           
 |   +---BAdI_Class
-|   |   |   [Class Name]_YYYYMMDD.md
-|   |   |   
-|   |   \---【System】_【Class Description】
+|   |   \---[System]_[Class Description]
+|   |       |   [Class Name]_YYYYMMDD.md
+|   |       |   
 |   |       \---【Download Date】
 |   +---BW_APD Routine
-|   |   \---【APD & Routine Description】
+|   |   \---[APD & Routine Description]
 |   |           [SID].abap
 |   |           [SID]_YYYYMMDD_n.[Comments].abap
 |   |           
 |   +---BW_DataSource
-|   |   |   [DataSource Name]_YYYYMMDD.md
-|   |   |   
-|   |   \---【DataSource】-【Function Module】
+|   |   \---[DataSource]-[Function Module]
+|   |           [DataSource Name]_YYYYMMDD.md
 |   |           [SID].abap
 |   |           [SID]_YYYYMMDD_n.[Comments].abap
 |   |           
 |   +---BW_DTP_Filter Routine
-|   |   \---【DTP & Field Description】_DTP Tech Name
+|   |   \---[DTP & Field Description]_DTP Tech Name
 |   |           [SID].abap
 |   |           [SID]_YYYYMMDD_n.[Comments].abap
 |   |           
 |   +---BW_InfoPackage_Filter Routine
-|   |   \---【InfoPackage & Field Description】_InfoPackage Tech Name
+|   |   \---[InfoPackage & Field Description]_InfoPackage Tech Name
 |   |           [SID].abap
 |   |           [SID]_YYYYMMDD_n.[Comments].abap
 |   |           
 |   +---BW_Process Chain
+|   |   \---[Process Chain Tech Name]
+|   |           [ProcessChain].xlsx
+|   |           
 |   +---BW_Transformation
 |   |   |   !-- 使用 Notepad++ 时，注意设置文件字符集.txt
 |   |   |   
-|   |   \---【Transformation Description】
+|   |   \---[Transformation Description]
 |   |           [SID].abap
 |   |           [SID]_YYYYMMDD_n.[Comments].abap
 |   |           

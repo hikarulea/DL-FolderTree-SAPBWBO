@@ -35,7 +35,7 @@ set file_name_tgt=README.md
 set target_detail_dir=%target_dir%\70.DEV(OverAll)
 call:myCopy2
 ::...\FolderTree\70.DEV(OverAll)\!--XXX BW & BO --!.md
-set file_name=!--XXX BW & BO --!.md
+set file_name="!--XXX BW %&"&" BO --!".md
 set target_detail_dir=%target_dir%\70.DEV(OverAll)
 call:myCopy
 ::...\FolderTree\70.DEV(OverAll)\BO\WebI\[Template - No] - [Short Description]\WebI Formula\!--XXX BW & BO --!.md
@@ -44,9 +44,9 @@ set target_detail_dir=%target_dir%\70.DEV(OverAll)\BO\WebI\[Template - No] - [Sh
 call:myCopy
 
 :: SourceCode
-::...\FolderTree\!_SourceCode\ABAP_Class\【System】【Class Description】\[Class Name]_YYYYMMDD.md
+::...\FolderTree\!_SourceCode\ABAP_Class\[System]_[Class Description]\[Class Name]_YYYYMMDD.md
 set file_name=[Class Name]_YYYYMMDD.md
-set target_detail_dir=%target_dir%\!_SourceCode\ABAP_Class\【System】【Class Description】
+set target_detail_dir=%target_dir%\!_SourceCode\ABAP_Class\[System]_[Class Description]
 call:myCopy
 ::...\FolderTree\!_SourceCode\ABAP_Program\[Program Name]_YYYYMMDD.md
 set file_name=[Program Name]_YYYYMMDD.md
@@ -59,6 +59,14 @@ call:myCopy
 ::...\FolderTree\!_SourceCode\BAdI_Class\[Class Name]_YYYYMMDD.md
 set file_name=[Class Name]_YYYYMMDD.md
 set target_detail_dir=%target_dir%\!_SourceCode\BAdI_Class
+call:myCopy
+::..\FolderTree\!_SourceCode\BW_DataSource\[DataSource]-[Function Module]\[DataSource Name]_YYYYMMDD.md
+set file_name=[DataSource Name]_YYYYMMDD.md
+set target_detail_dir=%target_dir%\!_SourceCode\BW_DataSource\[DataSource]-[Function Module]
+call:myCopy
+::..\FolderTree\!_SourceCode\BW_Process Chain\[Process Chain Tech Name]\[ProcessChain].xlsx
+set file_name=[ProcessChain].xlsx
+set target_detail_dir=%target_dir%\!_SourceCode\BW_Process Chain\[Process Chain Tech Name]
 call:myCopy
 
 :: Transport
