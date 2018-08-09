@@ -1,20 +1,47 @@
+# 数据源 (DataSource Name)
+
+[TOC]
+
+## 相关对象
+
+| Type         | Tech Name | Comments |
+| ------------ | --------- | -------- |
+| Source Table |           |          |
+| View         |           |          |
+| Structure    |           |          |
+|              |           |          |
+
+
+
 ## 逻辑概览
 
-``` ABAP
-aaa
-bbb
-ccc
-```
+1. FM 初始化
+2. FM 第一次调用
+   1. 处理选择条件
+   2. Open Cursor
+3. FM 之后调用
 
 ## 核心代码
 
-### XXX
+### 1. FM 初始化
 
 ``` ABAP
-aaa
-bbb
-ccc
+
 ```
+
+### 2. FM 第一次调用 
+
+``` ABAP
+
+```
+
+### 3. FM 之后调用
+
+``` ABAP
+
+```
+
+
 
 ## 如何增强
 
@@ -27,6 +54,6 @@ ccc
 
 ## Changelog
 
-* 2017081?: 初稿
+* YYYMMDD: New
 
 ## Footnotes
