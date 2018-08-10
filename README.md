@@ -9,7 +9,7 @@ Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdo
 
 ~~~
 Root Folder
-|   !-- version 20180808_1626
+|   !-- version 20180809_0832
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -61,10 +61,19 @@ Root Folder
 |   |           [SID]_YYYYMMDD_n.[Comments].abap
 |   |           
 |   +---BW_DataSource
-|   |   \---[DataSource]-[Function Module]
-|   |           [DataSource Name]_YYYYMMDD.md
+|   |   +---[DataSource]-[Function Module]
+|   |   |       [DataSource Name]_YYYYMMDD.md
+|   |   |       [SID].abap
+|   |   |       [SID]_YYYYMMDD_n.[Comments].abap
+|   |   |       
+|   |   +---_F1_RSAX_BIW_GET_DATA
+|   |   |       [SID].abap
+|   |   |       
+|   |   +---_F2_RSAX_BIW_GET_DATA_SIMPLE
+|   |   |       [SID].abap
+|   |   |       
+|   |   \---__RSA3_GET_DATA_SIMPLE
 |   |           [SID].abap
-|   |           [SID]_YYYYMMDD_n.[Comments].abap
 |   |           
 |   +---BW_DTP_Filter Routine
 |   |   \---[DTP & Field Description]_DTP Tech Name
