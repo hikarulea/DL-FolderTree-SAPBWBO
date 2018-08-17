@@ -9,7 +9,7 @@ Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdo
 
 ~~~
 Root Folder
-|   !-- version 20180817_1042
+|   !-- version 20180817_1103
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -184,7 +184,8 @@ Root Folder
 |   |   +---01.HANA Issue
 |   |   +---02.BO Issue
 |   |   +---03.Report Logic Issue
-|   |   \---04.Authorization
+|   |   +---04.Authorization
+|   |   \---YYYYMMDD_[n.]SupportDescription
 |   +---07.KT
 |   +---08.User Training
 |   \---21.For Others
