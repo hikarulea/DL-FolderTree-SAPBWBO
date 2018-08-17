@@ -9,7 +9,7 @@ Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdo
 
 ~~~
 Root Folder
-|   !-- version 20180809_0832
+|   !-- version 20180817_1042
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -119,6 +119,26 @@ Root Folder
 +---00.AMS Support
 |   |   README_AMS Support.md
 |   |   
+|   +---00.Data Upload
+|   |   \---YYYYMMDD_[n.]SupportDescription
+|   +---00.Data Upload(MasterData)
+|   |   \---YYYYMMDD_[n.]SupportDescription
+|   +---00.Data Upload(ProcessChain)
+|   |   \---YYYYMMDD_[n.]SupportDescription
+|   +---00.Month End Support
+|   |   \---YYYYMM
+|   +---01.BW Issue
+|   |   \---YYYYMMDD_[n.]SupportDescription
+|   +---01.HANA Issue
+|   |   \---YYYYMMDD_[n.]SupportDescription
+|   +---02.BO Issue
+|   |   \---YYYYMMDD_[n.]SupportDescription
+|   +---03.Report Logic Issue
+|   |   \---YYYYMMDD_[n.]SupportDescription
+|   +---04.Authorization
+|   |   \---YYYYMMDD_[n.]SupportDescription
+|   +---05.User Support(Other)
+|   |   \---YYYYMMDD_[n.]SupportDescription
 |   \---YYYYMMDD_[n.]SupportDescription
 +---01.[Report or Project Name]_Template
 |   |   README_[Report or Project Name].md
