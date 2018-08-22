@@ -9,7 +9,7 @@ Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdo
 
 ~~~
 Root Folder
-|   !-- version 20180817_1103
+|   !-- version 20180822_0902
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -191,7 +191,7 @@ Root Folder
 |   \---21.For Others
 +---70.DEV(OverAll)
 |   |   !--XXX BW & BO --!.md
-|   |   README.md
+|   |   README_DEV_OverAll.md
 |   |   
 |   +---!--Archives
 |   +---ABAP

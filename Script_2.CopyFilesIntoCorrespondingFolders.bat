@@ -16,26 +16,26 @@ call:myCopy
 
 :: AMS
 ::...\FolderTree\00.AMS Support\README_AMS Support.md
-set file_name_src=AMS_README.md
-set file_name_tgt=README_AMS Support.md
+set file_name_src="README_AMS Support".md
+set file_name_tgt="README_AMS Support".md
 set target_detail_dir=%target_dir%\00.AMS Support
 call:myCopy2
 
 :: [Report or Project Name]_Template
-::...\FolderTree\01.[Report or Project Name]_Template\README.md
-set file_name_src=[Report or Project Name]_README.md
+::...\FolderTree\01.[Report or Project Name]_Template\README_[Report or Project Name].md
+set file_name_src=README_[Report or Project Name].md
 set file_name_tgt=README_[Report or Project Name].md
 set target_detail_dir=%target_dir%\01.[Report or Project Name]_Template
 call:myCopy2
 
 :: Dev
-::...\FolderTree\70.DEV(OverAll)\README.md
-set file_name_src=DEV_OverAll_README.md
-set file_name_tgt=README.md
+::...\FolderTree\70.DEV(OverAll)\README_DEV_OverAll.md
+set file_name_src=README_DEV_OverAll.md
+set file_name_tgt=README_DEV_OverAll.md
 set target_detail_dir=%target_dir%\70.DEV(OverAll)
 call:myCopy2
 ::...\FolderTree\70.DEV(OverAll)\!--XXX BW & BO --!.md
-set file_name="!--XXX BW %&"&" BO --!".md
+set file_name="!--XXX BW ^& BO --!".md
 set target_detail_dir=%target_dir%\70.DEV(OverAll)
 call:myCopy
 ::...\FolderTree\70.DEV(OverAll)\BO\WebI\[Template - No] - [Short Description]\WebI Formula\!--XXX BW & BO --!.md
