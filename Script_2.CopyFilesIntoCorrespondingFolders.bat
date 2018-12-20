@@ -68,6 +68,10 @@ call:myCopy
 set file_name=[ProcessChain].xlsx
 set target_detail_dir=%target_dir%\!_SourceCode\BW_Process Chain\[Process Chain Tech Name]
 call:myCopy
+::..\FolderTree\!_SourceCode\ABAP_View\[System]_[View Name]\[ABAP View]_YYYYMMDD.md
+set file_name=[ABAP View]_YYYYMMDD.md
+set target_detail_dir=%target_dir%\!_SourceCode\ABAP_View\[System]_[View Name]
+call:myCopy
 
 :: Transport
 :: ...\FolderTree\71.MTP(TR Status)\!--XXX TR Status - BO.md
