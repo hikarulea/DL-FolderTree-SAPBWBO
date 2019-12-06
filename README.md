@@ -9,7 +9,7 @@ Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdo
 
 ~~~
 Root Folder
-|   !-- version 20181220_1103
+|   !-- version 20191206_1410
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -159,6 +159,9 @@ Root Folder
 |   |   +---02.Analysis_AS-IS
 |   |   +---03.Analysis_TO-BE
 |   |   \---04.Solution
+|   |       +---01.Architecture(Data Flow)
+|   |       +---02.Technical Design
+|   |       \---03.Detail Logic Doc
 |   +---02.DEV
 |   |   |   !--移入 OverAll @ 20161017，视项目规模.txt
 |   |   |   
