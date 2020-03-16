@@ -9,7 +9,7 @@ Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdo
 
 ~~~
 Root Folder
-|   !-- version 20191206_1410
+|   !-- version 20200316_0848
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -147,6 +147,7 @@ Root Folder
 +---01.[Report or Project Name]_Template
 |   |   README_[Report or Project Name].md
 |   |   
+|   +---!-Archived_Markdown
 |   +---00.Project Manage
 |   |   +---!--MaxAttention
 |   |   +---00.Project plan
