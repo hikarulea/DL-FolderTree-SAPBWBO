@@ -9,7 +9,7 @@ Use **Script_2.CopyFilesIntoCorrespondingFolders.bat** to move all latest markdo
 
 ~~~
 Root Folder
-|   !-- version 20200414_1000
+|   !-- version 20200801_2147
 |   
 +---!--Archives--!
 |   \---[By Person Name]
@@ -225,7 +225,83 @@ Root Folder
 |       XXX_TR_Status_YYYYMM(Archives).md
 |       
 +---71.Optimization
++---71.POC
 +---99.Config
-\---99.ID
++---99.ID
++---99.KT
++---_[Report or Project Name]_Template
+|   |   README_[Report or Project Name].md
+|   |   
+|   +---00.Project Manage
+|   |   +---!--MaxAttention
+|   |   +---00.Project plan
+|   |   +---01.Status Report
+|   |   +---02.Daily Log(Status Detail)
+|   |   \---03.Meeting Minutes
+|   +---01.Requirement & Solution
+|   |   +---00.Question List
+|   |   +---01.Requirement
+|   |   +---02.Analysis_AS-IS
+|   |   +---03.Analysis_TO-BE
+|   |   \---04.Solution
+|   +---02.DEV
+|   |   |   !--移入 OverAll @ 20161017，视项目规模.txt
+|   |   |   
+|   |   +---BO
+|   |   |   \---WebI
+|   |   |       \---[Template - No] - [WebI Short Description]
+|   |   |           |   !--WebI 文件放在这里，公式放在上面文件夹里.txt
+|   |   |           |   
+|   |   |           \---WebI Formula
+|   |   |                   !-- 文件内容模板见分类文件夹(02.DEV).txt
+|   |   |                   
+|   |   +---DataSource - Flat File
+|   |   \---Query - Filter
+|   |           BEx Query - Filter - Range can not be import.txt
+|   |           BEx Query - Filter - Single Value.txt
+|   |           
+|   +---03.SIT
+|   +---04.UAT
+|   +---05.MTP
+|   |   |   !-- 上线时的传输相关内容，上线后的传输见 PPS 对应错误文件夹@20150111 --!
+|   |   |   
+|   |   \---TR List
+|   +---06.PPS
+|   |   +---!--00.Daily issue Log
+|   |   +---00.Data Upload
+|   |   +---01.BW Issue
+|   |   +---01.HANA Issue
+|   |   +---02.BO Issue
+|   |   +---03.Report Logic Issue
+|   |   +---04.Authorization
+|   |   \---YYYYMMDD_[n.]SupportDescription
+|   +---07.KT
+|   +---08.User Training
+|   \---21.For Others
++---_[Report or Project Name]_Template_HANA
+|   |   README_[Report or Project Name].md
+|   |   
+|   +---00.Project Manage
+|   |   +---!--MaxAttention
+|   |   +---00.Project plan
+|   |   +---01.Status Report
+|   |   +---02.Daily Log(Status Detail)
+|   |   \---03.Meeting Minutes
+|   +---01.Requirement & Solution
+|   |   +---00.Question List
+|   |   +---01.Requirement
+|   |   +---02.Analysis_AS-IS
+|   |   +---03.Analysis_TO-BE
+|   |   \---04.Solution
+|   +---02.DEV
+|   +---03.SIT
+|   +---04.UAT
+|   +---05.MTP
+|   +---06.PPS
+|   |   \---YYYYMMDD_[n.]SupportDescription
+|   +---07.KT
+|   +---08.User Training
+|   \---21.For Others
+\---_思维导图
 ~~~
 
