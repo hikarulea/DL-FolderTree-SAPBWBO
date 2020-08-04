@@ -34,8 +34,8 @@ set file_name_src=README_DEV_OverAll.md
 set file_name_tgt=README_DEV_OverAll.md
 set target_detail_dir=%target_dir%\70.DEV(OverAll)
 call:myCopy2
-::...\FolderTree\70.DEV(OverAll)\!--XXX BW & BO --!.md
-set file_name="!--XXX BW ^& BO --!".md
+::...\FolderTree\70.DEV(OverAll)\!--XXX BW & BO & HANA --!.md
+set file_name=^!^-^-XXX BW ^& BO ^& HANA ^-^-^!.md
 set target_detail_dir=%target_dir%\70.DEV(OverAll)
 call:myCopy
 ::...\FolderTree\70.DEV(OverAll)\BO\WebI\[Template - No] - [Short Description]\WebI Formula\!--XXX BW & BO --!.md
