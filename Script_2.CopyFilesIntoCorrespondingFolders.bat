@@ -22,10 +22,17 @@ set target_detail_dir=%target_dir%\00.AMS Support
 call:myCopy2
 
 :: [Report or Project Name]_Template
-::...\FolderTree\01.[Report or Project Name]_Template\README_[Report or Project Name].md
-set file_name_src=README_[Report or Project Name].md
+::...\FolderTree\!--Template--!\01.[Report or Project Name]_Template\README_[Report or Project Name].md
+set file_name_src=README_[Report or Project Name]_BW.md
 set file_name_tgt=README_[Report or Project Name].md
-set target_detail_dir=%target_dir%\01.[Report or Project Name]_Template
+set target_detail_dir=%target_dir%\!--Template--!\01.[Report or Project Name]_Template
+call:myCopy2
+
+:: _[Report or Project Name]_Template_HANA
+::...\FolderTree\!--Template--!\01.[Report or Project Name]_Template_HANA\README_[Report or Project Name].md
+set file_name_src=README_[Report or Project Name]_HANA.md
+set file_name_tgt=README_[Report or Project Name].md
+set target_detail_dir=%target_dir%\!--Template--!\01.[Report or Project Name]_Template_HANA
 call:myCopy2
 
 :: Dev
